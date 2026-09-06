@@ -1,0 +1,55 @@
+{
+  "name": "deob",
+  "version": "1.0.0",
+  "description": "A god-tier static JavaScript deobfuscator — string arrays, packers, state machines, Proxy facades, runtime crypto theater, and custom VMs all collapse back to near-original source. No eval, no execution, no guessing.",
+  "main": "src/index.js",
+  "bin": {
+    "deob": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node test/behavioral.js",
+    "deob": "node src/cli.js"
+  },
+  "keywords": [
+    "deobfuscator",
+    "deobfuscation",
+    "javascript",
+    "obfuscation",
+    "unminify",
+    "beautify",
+    "reverse-engineering",
+    "security",
+    "malware-analysis",
+    "babel",
+    "ast",
+    "static-analysis",
+    "unpacker",
+    "packer",
+    "chrome-extension"
+  ],
+  "author": "Monem",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Monem089/deob.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Monem089/deob/issues"
+  },
+  "homepage": "https://github.com/Monem089/deob#readme",
+  "dependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/generator": "^7.28.0",
+    "@babel/parser": "^7.28.0",
+    "@babel/traverse": "^7.28.0",
+    "@babel/types": "^7.28.0",
+    "adm-zip": "^0.6.0",
+    "chalk": "^4.1.2",
+    "commander": "^14.0.0"
+  }
+}
