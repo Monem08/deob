@@ -1,0 +1,1 @@
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};while(c--)if(k[c])p=p.replace(new RegExp("\\b"+e(c)+"\\b","g"),k[c]);return p}("0.1(\"2 3 4\");",62,5,"console|log|PACKED|&|UNPACKED".split("|"),0,{}))
